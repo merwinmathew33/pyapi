@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User Details</title>
+  </head>
+  <body>
+    {% if user %}
+    <h1>{{ user.name }}</h1>
+    <p>Email: {{ user.email }}</p>
+    <p>Created At: {{ user.created_at }}</p>
+    {% else %}
+    <h1>User not found</h1>
+    {% endif %}
+  </body>
+</html>
