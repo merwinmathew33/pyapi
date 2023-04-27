@@ -1,7 +1,7 @@
 # pyapi
 This is a simple web application for  user and order creation, retrieving details using user_id and order_id, built using flask, RESTful API and MongoDB
 ## Features
-* Have seperate table for orders and users in database which contains order_d, prodct name, quantity, total price and user_id, name, email_id, creation date respectively.
+* Have separate table for orders and users in database which contains order_d, prodct name, quantity, total price and user_id, name, email_id, creation date respectively.
 * Returns a list of users and orders present in that database
 * Returns the details of a specific user and order using its unique id
 ## Installation
