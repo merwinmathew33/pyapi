@@ -38,7 +38,7 @@ def get_user_details():
 @app.route('/users/<string:user_id>', methods=['GET'])
 def get_user_by_id(user_id):
     # Get a specific user by id from the users collection
-    user = users_collection.find_one({'id': user_id}, {'id': 0})
+    user = users_collection.find_one({'id': user_id}, {'_id': 0})
     if user is None:
         return render_template('user_details.html', user=None)
     else:
