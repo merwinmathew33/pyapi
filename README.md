@@ -20,9 +20,9 @@ This is a simple web application for  user and order creation, retrieving detail
  
 4. Open your web browser and go to http://localhost:5000 to access the application.
 
-
 ## How to use
-![image](https://user-images.githubusercontent.com/95087459/234883408-c4f5fe51-1e34-49a2-a805-b5c2c738de0f.png)
+
+Click on each linnk to do following operations
 
 * Returns a list of all users in the system.
 * Returns the details of a specific user.
